@@ -1,0 +1,38 @@
+*{
+margin: 0%;
+padding: 0%;
+
+}
+.container{
+    display: grid;
+   grid-template-columns: repeat(8,70px);
+justify-content: center;
+padding-top: 20px;
+
+}
+
+.box{
+    height:70px;
+    background-color: #fccc74;
+  
+}
+#box1{
+    background-color:#573a2e;
+}
+.box i{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+
+  padding: 15px;
+
+
+}
+.box2{
+    color: #fff;
+}
+
+.box1 i{
+    color: #fff;
+}
+ 
